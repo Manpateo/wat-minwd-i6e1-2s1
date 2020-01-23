@@ -1,0 +1,11 @@
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\bin\Debug\netcoreapp2.1\WikiSlownikScraper.deps.json
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\bin\Debug\netcoreapp2.1\WikiSlownikScraper.runtimeconfig.json
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\bin\Debug\netcoreapp2.1\WikiSlownikScraper.runtimeconfig.dev.json
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\bin\Debug\netcoreapp2.1\WikiSlownikScraper.dll
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\bin\Debug\netcoreapp2.1\WikiSlownikScraper.pdb
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\obj\Debug\netcoreapp2.1\WikiSlownikScraper.csprojAssemblyReference.cache
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\obj\Debug\netcoreapp2.1\WikiSlownikScraper.csproj.CoreCompileInputs.cache
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\obj\Debug\netcoreapp2.1\WikiSlownikScraper.AssemblyInfoInputs.cache
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\obj\Debug\netcoreapp2.1\WikiSlownikScraper.AssemblyInfo.cs
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\obj\Debug\netcoreapp2.1\WikiSlownikScraper.dll
+D:\Projekty\BANACH\scraper\WikiSlownikScraper\obj\Debug\netcoreapp2.1\WikiSlownikScraper.pdb
