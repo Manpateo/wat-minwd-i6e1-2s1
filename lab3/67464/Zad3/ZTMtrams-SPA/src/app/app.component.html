@@ -1,0 +1,62 @@
+<div id="leftSide">
+    <agm-map [latitude]="lat" [longitude]="lon" [zoom]="11">
+        <agm-marker *ngFor="let item of tramsByLine" [latitude]="item.Lat" [longitude]="item.Lon">
+            <agm-info-window [disableAutoPan]="true">
+                    <div class="card-deck mb-3 text-center">
+                        <div class="card mb-3 shadow-sm">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal">Tramwaj</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">
+                                    <strong>
+                                        {{item.Lines}}
+                                    </strong>
+                                </h1>
+                                <ul class="list-unstyled mt-3 mb-3">
+                                    <li>Numer pojazdu: {{item.VehicleNumber}}</li>
+                                    <li>Brygada: {{item.Brigade}}</li>
+                                    <li>Data i godzina: {{item.Time}}</li>
+                                </ul>
+                            </div>      
+                        </div>  
+                    </div>
+            </agm-info-window>
+        </agm-marker>
+    </agm-map>
+</div>
+<div id="rightSide">
+    <table class="table">
+        <thead>
+            <tr class="alert alert-success" role="alert">
+                <th scope="col" class="form-group text-center">Lista tramwajów</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="alert alert-dark" role="alert">
+                <th scope="col" class="form-group text-center">
+                        <select (change)="assignTram($event.target.value)">
+                            <option disabled>Wybierz tramwaj</option>
+                            <option *ngFor="let tram of trams;" (ngValue)="tram.Lines">
+                                {{tram.Lines}}
+                            </option>
+                        </select>
+                </th>
+            </tr>
+            <tr>
+                <th scope="col" class="form-group text-center">
+                    <button type="button" class="btn btn-warning" (click)="showTram()">wypisz tramwaje</button>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+
+    
+</div>
+
+
+
+
+
+
+

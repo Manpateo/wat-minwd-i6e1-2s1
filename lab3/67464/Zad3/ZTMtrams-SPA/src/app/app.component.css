@@ -1,0 +1,14 @@
+agm-map {
+    height: 900px;
+    width: 900px;
+}
+
+#leftSide {
+    width: 50%;
+    float: left;
+}
+
+#rightSide {
+    width: 50%;
+    float: right;
+}
