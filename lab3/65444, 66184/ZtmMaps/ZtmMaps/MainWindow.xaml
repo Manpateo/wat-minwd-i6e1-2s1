@@ -1,0 +1,20 @@
+﻿<Window x:Class="ZtmMaps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:local="clr-namespace:ZtmMaps"
+        mc:Ignorable="d"
+        Title="ZtmMaps" Height="600" Width="900"
+        Background="Gray">
+    <Grid>
+        <m:Map Name="myMap" Width="600" Height="600" HorizontalAlignment="Right" CredentialsProvider="AgAy3cqGQa2zAZ1JuQC0OuAmev5tOkp5563KOZPhgn6FeXnRjgArlHm7bVaf11oa" Center="52.253217, 20.9003" ZoomLevel="15" Mode="Road"/>
+        <Label FontSize="20" Content="Podaj numer pojazdu:" Margin="10,10,661.6,508.4"/>
+        <TextBox x:Name="vehicleNumber" FontSize="20" Margin="20,52,773.6,482.4" TextWrapping="Wrap" MaxLength="3"/>
+        <Label Content="Wybierz rodzaj pojazdu:" FontSize="20" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="busRadioButton" IsChecked="True" Content="Autobus" FontSize="15" Margin="20,125,773.6,417.4"/>
+        <RadioButton x:Name="tramRadioButton" Content="Tramwaj" FontSize="15" Margin="20,158,773.6,377.4" />
+        <Button Content="Wyszukaj" FontSize="17" HorizontalAlignment="Left" Margin="175,194,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="Button_Click"/>
+    </Grid>
+</Window>

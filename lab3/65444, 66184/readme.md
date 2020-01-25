@@ -1,0 +1,1 @@
+Do uruchomienia wymagane jest Visual Studio
